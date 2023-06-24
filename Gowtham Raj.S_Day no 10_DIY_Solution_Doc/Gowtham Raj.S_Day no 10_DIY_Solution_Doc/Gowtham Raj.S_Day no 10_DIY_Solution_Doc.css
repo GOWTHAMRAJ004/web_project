@@ -1,0 +1,247 @@
+
+.box1{
+    background-image: url("./flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:100%;
+   height: 400px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    padding:10px 140px 10px 0px;
+}
+.login{
+    border: none;
+    background-color: inherit;
+    margin-right: 6px;
+    font-weight:bold;
+    color: white;
+}
+.create{
+    background-color: inherit;
+    border: 2px solid white;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+.f2{
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.img2{
+    background-image: url("./behance.svg");
+    background-repeat: no-repeat;
+    
+    height: 70px;
+    width: 70px;
+    background-size: cover; 
+    position: relative;
+    
+    
+    left: 130px;
+    margin-top: 5px;
+
+}
+.p1{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.bol{
+    width: 140px;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+.bol1{
+    width: 250px;
+    height: 30px;
+    outline: none;
+   border: none;
+}
+.c4{
+    
+    color: black;
+    display: flex;
+    height: 150px;
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.i1{
+    height: inherit;
+    width: 150px;
+    margin-right: 10px;
+}
+.p2{
+   
+    position: relative;
+    bottom: 20px;
+    width: 170px;
+    color: gray;
+}
+.box2{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.inner-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 20px;
+}
+h4{
+    font-size: 20px;
+}
+.p6{
+    color: gray;
+    
+}
+.lif{
+    margin-bottom: px;
+}
+.search{
+    font-size: 30px;
+  
+
+}
+
+@media(max-width: 800px) {
+    .box1{
+        background-image: url("./d3.jpg");
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size:cover;
+    
+    }
+    
+   .login{
+    font-size: 15px;
+    position: relative;
+    right: -38px;
+   }
+   .create{
+   font-size: 15px;
+   padding: 10px;
+   position: relative;
+   right: -50px;
+   }
+   .bol1{
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: start;  
+ }
+ .bol{
+     width: 100%;
+     margin-left:15px ;
+ }
+   .inner-box{
+   display: flex;
+   flex-wrap: wrap;
+    width: 100%;
+   }
+   .p2{
+    font-size: 15px;
+
+}
+.p6{
+    font-size: 20px;
+    margin-left: 8%;
+}
+.search{
+    margin-left: 8%;
+}
+}
+@media all  and (max-width: 600px) {
+    .bol1{
+       width: 90%;
+       margin-left: 15px;
+       margin-top: 10px;
+       text-align: start;  
+    }
+    .bol{
+        width: 90%;
+        margin-left: 15px;
+    }
+   .login{
+    font-size: 13px;
+    position: relative;
+    left: 130px;
+
+   }
+   .create{
+   
+    width: 120px;
+    padding: px;
+    font-size: 13px;
+    margin: 0;
+    position: relative;
+    left: 130px;
+   }
+ 
+.box1{
+    background-image: url("./d1.jpg");
+    background-size:cover ;
+    width: 100%;
+   height: 400px;
+}
+body{
+    margin: 0%;
+
+}
+.p1{
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 40px;
+}
+.inner-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.c4{
+    width: 330px;
+    height: 130px;
+}
+.i1{
+    width: 130px;
+
+}
+.p2{
+    font-size: 15px;
+}
+.p6{
+    margin-left: 17%;
+}
+.search{
+    margin-left: 17%;
+}
+
+}
+@media all  and (max-width: 1600px) {
+    .p6{
+        margin-left: 13%;
+    }
+    .search{
+        margin-left: 13%;
+    }
+}
+/* .inner-box{
+    border:2px green solid;
+
+}
+.c4{
+    border: 3px solid red;
+
+} */
+
+
+
